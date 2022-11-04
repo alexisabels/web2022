@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+        font-family: "Arial";
+}
+body {
+    margin: 0;
+    background-image: url(/img/nieve.gif);
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(157, 198, 221);
+    box-shadow: 0px 0px 90px black;
+}
+header {
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+footer {
+    background-color: rgb(10, 59, 83);
+    color: rgb(216, 213, 247);
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 20px;
+    font-family: 'Gill Sans MT';
+    
+    
+}
+ul.menu {
+    font-family: 'Gill Sans MT';
+    font-size: large;
+}
+
+#principal {
+    display: flex;
+}
+
+nav {
+    width: 20%;
+    float: left;
+}
+
+#content {
+    width: 80%;
+    float: right;
+    flex: 1;
+    display: flex;
+}
+
+#home {
+    background-color:  rgb(157, 198, 221);  ;
+    flex: 1;
+    text-align: center;
+    padding-top: 40px;
+}
+.cb {
+    clear: both;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+nav ul li {
+   text-align: center;
+   color: rgb(16, 10, 83);
+   font-weight: bold;
+   padding: 18px 0;
+   border-radius: 90px;
+   border: solid 2px        ;
+   box-shadow: 4px 4px 20px black;
+}
+nav ul li:hover {
+    color:  rgb(216, 213, 247);
+    background-color: rgb(16, 10, 83);
+}
+
+.txt-center {
+    text-align: center;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.tag {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+.content {
+    width: 80%;
+    float: right;
+    padding: 0 1%;
+}
+
+ul.ldc {
+    list-style-type: square;
+}
+ul.ldc li ul li{
+    list-style-type: disc;
+}
+ul.ldc li ul li ul li{
+    list-style-type: circle;
+}
+ol.loc {
+    list-style-type: upper-alpha;
+}
+ol.loc li ol{
+    list-style-type: upper-roman;
+}
+ol.loc li ol li ol {
+    list-style-type: decimal;
+}
+
+
+ol.loci li ol {
+    list-style-image: url(../img/heart.png);
+}
+ol.loci li ol li ol {
+    list-style-type: decimal;
+    list-style-image: none;
+}
+dt {
+    color:rgb(16, 10, 83);
+    font-size: 30px;
+    font-weight: bold;
+}
+table.te th {
+    background-color:rgb(10, 59, 83);
+    color: rgb(216, 213, 247);
+    font-size: 28px;
+}
+table.te td{
+    background-color: rgb(216, 213, 247);
+    color: rgb(10, 59, 83);
+}
+table.centered td {
+    text-align: center;
+}
+table.striped tr:nth-child(odd) {
+    background-color: rgb(198, 255, 236);
+}
+table.striped tr:nth-child(even) {
+    background-color: rgb(216, 213, 247);
+}
+table.horario { 
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial;
+    background: #f0f0f0;
+}
+table.horario th {
+    color: #008081;
+}
+.fol {
+    background-color: #ffff64;
+}
+.bdd {
+    background-color: #ff8080;
+}
+.sisi {
+    background-color: #ffa264;
+}
+.ende {
+    background-color: #00b95c;
+}
+.prog {
+    background-color: #0080ff;
+}
+.lmsg {
+    background-color: #00df00;
+}
+.ing {
+    background-color: #d2d26e;
+}
+
+.registro {
+ width: 40%;
+}
+.w100 {
+    width: 99%;
+}
+.w60 {
+    width: 49%;
+}
+.w50 {
+    width: 49%;
+}
+fieldset {
+    border:4px outset rgb(10, 59, 83);
+    margin-bottom: 4%;
+  }
+fieldset.fieldhtml5 {
+    background-color: rgb(233, 233, 233);
+    width: 40%;
+
+}
+input {
+    border-radius:4px;
+    border-style: groove
+}
+.submit {
+    border-radius: 4px;
+    border-style: outset;
+    border-color: rgb(10, 59, 83);
+    background-color: rgb(216, 213, 247);
+}
+
+audio {
+    display: block;
+    margin: 0 auto;
+}
+legend.formhtml5 {
+      background-color:  rgb(233, 233, 233);
+      border: solid 5px;
+      border-radius: 7px;
+      border-color: rgb(10, 59, 83);
+}
+
+
+

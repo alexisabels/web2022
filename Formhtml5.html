@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 - CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        function updateTxtRange(valor) {
+            document.getElementById('idrange').value = valor
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+        </header>
+        <div id="principal">
+            <nav>
+                <!-- ul>a*9>li  -->
+                <ul class="menu">
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="Parrafos.html"><li>PÁRRAFOS</li></a>
+                    <a href="Enlaces.html"><li>ENLACES</li></a>
+                    <a href="Listas.html"><li>LISTAS</li></a>
+                    <a href="Tablas.html"><li>TABLAS</li></a>
+                    <a href="Formularios.html"><li>FORMULARIOS</li></a>
+                    <a href="Multimedia.html"><li>MULTIMEDIA</li></a>
+                    <a href="Formhtml5.html"><li>FORM-HTML5</li></a>
+                </ul>
+            </nav>
+            <div class="content">
+                <div id="Formhtml5">
+                    <h1 class="txt-center">Form. Html5</h1>
+                    <form action="pagina.html" method="get" enctype="multipart/form-data">
+                    <fieldset class="fieldhtml5">
+                        <legend class="formhtml5">Form HTML5</legend>
+                        <input type="Url" placeholder="Url"> <br> <p></p>
+                        <input type="email" name="mail" id="" placeholder="email"> <br> <p></p>
+                        <input type="date" name="fecha" id=""> <br> <p></p>
+                        <input type="datetime" name="fechahora" id="" placeholder="Fecha y hora"> <br> <p></p>
+                        <input type="week" name="semana" id=""><br> <p></p>
+                        <input type="color" name="color" id=""><br> <p></p> 
+                        <input type="number" name="numero" id="" min="0" max="100" step="10" placeholder="Núm."><br> <p></p> 
+                        <input type="range" name="rango" id="" min="0" max="100" step="10" onchange="updateTxtRange(this.value)">
+                        <input type="text" id="idrange" disabled="" style="width: 8%;"> <br> <p></p>
+                        <input type="file" name="file" id=""><br> <p></p> 
+                        <input type="image" name="imagen" src="/img/heart.png" id=""><br> <p></p> 
+                        <input type="search" name="buscar" id="" placeholder="Buscar"> <br> <p></p>
+                        <br> <br> <input type="reset" value="Clear" class="submit">
+                        <input type="submit" value="Aceptar" class="submit">
+                    </fieldset>
+                </form>
+
+                </div>
+
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>&copy; Alex Isabel - S1DAW</footer>
+    </div>
+</body>
+</html>
