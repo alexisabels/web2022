@@ -195,12 +195,22 @@ table.horario th {
 }
 fieldset {
     border:4px outset rgb(10, 59, 83);
-    margin-bottom: 4%;
+    display: block;
+    margin: 0 auto;
   }
 fieldset.fieldhtml5 {
     background-color: rgb(233, 233, 233);
     width: 40%;
 
+}
+.parrafospan {
+    color: #0080ff;
+}
+.caja {
+    width: 200px;
+    background-color: rgb(216, 213, 247);
+    text-align: center;
+    padding: 40px 0;
 }
 input {
     border-radius:4px;
